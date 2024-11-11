@@ -117,17 +117,17 @@ export default function Home() {
   return (
     <div>
       <header>
-        <div className="header-title">Gardini Dev Mark's</div>
+        <div className="header-title">Gardini Dev Mark&apos;s</div>
       </header>
       <div>
         <div className="intro">
           <div>
             <h1>
-              Aplicador de <br></br> marca d'água
+              Aplicador de <br></br> marca d&apos;água
             </h1>
             <h2>
               Envie a imagem que deseja e o <br></br>arquivo PNG da sua marca
-              <br></br> d'água, e nós cuidamos do resto!
+              <br></br> d&apos;água, e nós cuidamos do resto!
             </h2>
           </div>
           <div className="camera-icon">
@@ -162,7 +162,7 @@ export default function Home() {
             {/* Watermark Upload Input */}
             <div className="inputBox">
               <h3>
-                <label>Enviar Marca d'água: (png recomendado)</label>
+                <label>Enviar Marca d&apos;água: (png recomendado)</label>
               </h3>
               <input
                 type="file"
@@ -172,7 +172,7 @@ export default function Home() {
             </div>
             <div className="inputBox">
               <h3>
-                <label>Selecione a Posição da Marca d'água:</label>
+                <label>Selecione a Posição da Marca d&apos;água:</label>
               </h3>
               <select value={selectedCorner} onChange={handleCornerChange}>
                 <option value="top-left">Superior Esquerda</option>
